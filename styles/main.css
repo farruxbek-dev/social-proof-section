@@ -1,0 +1,154 @@
+#container {
+  min-width: 46.75rem;
+  width: 77vw;
+  height: 34.5rem;
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#top {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#top-left {
+  min-width: 19.625rem;
+  width: 37%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#top-right {
+  width: 48.4%;/* 510px */
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+}
+.ratings {
+  box-sizing: border-box;
+  /* 422x50 */
+  width: 82.7%;
+  height: 48px;
+  background-color: rgb(246,241,247);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+}
+.rating3 {
+  margin-bottom: 0;
+}
+.hider {
+  width: 17.3%;
+  height: 50px;
+  background-color: transparent;
+}
+
+#bottom {
+  width: 100%;
+  height: 15.8125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comments {
+  width: 31.3%;
+  min-width: 14.625rem;
+  height: auto;
+  padding-bottom: 30px;
+  background-color: rgb(81,31,80);
+  border-radius: 8px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 36px;
+  box-sizing: border-box;
+}
+.com1 {
+  margin-top: -2.1875rem;
+}
+.com3 {
+  margin-bottom: -2.1875rem;
+}
+.div-in-hider {
+  width: 100%;
+  display: flex;
+}
+
+@media (max-width: 47.9375rem) {
+  #container {
+    min-width: 18.75rem;
+  }
+  #top {
+    flex-direction: column;
+    height: 28.5rem;
+  }
+  #top-left, #top-right {
+    width: 100%;
+  }
+  #top-left {
+    min-width: 18.75rem;
+  }
+  #bottom {
+    flex-direction: column;
+  }
+  .comments {
+    width: 90%;
+    min-height: 12.5rem;
+    margin-bottom: 1.25rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1274px) {
+  #top-right {
+    justify-content: space-between;
+  }
+  .ratings {
+    margin: 0;
+  }
+}
+@media (max-width: 1236px) {
+  .hider {
+    display: none;
+  }
+  #top-right {
+    align-items: center;
+  }
+  #div-in-hider {
+    width: 82.7%;
+  }
+  .ratings {
+    width: 100%;
+  }
+}
+@media (max-width: 468px) {
+  .ratings {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 404px) {
+  #bottom {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1139px) {
+  .comments {
+    margin: 0;
+  }
+}
+@media (max-width: 767px) {
+  .comments {
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 396px) {
+  .comments {
+    box-sizing: border-box;
+    min-height: 220px;
+  }
+}

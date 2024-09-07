@@ -1,0 +1,57 @@
+/* TOP-LEFT */
+#p1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: hsl(300, 43%, 22%);
+  margin-bottom: 1.25rem;
+}
+#p2 {
+  font-size: 1.125rem;
+  color: hsl(303, 10%, 53%);
+  line-height: 1.2;
+}
+/* TOP-RIGHT */
+.rating-text {
+  font-weight: 700;
+  margin-left: 40px;
+  color: rgb(81,31,80);
+}
+/* BOTTOM */
+.com-top {
+  display: flex;
+  align-items: center;
+}
+.comments img {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.name-job {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.job {
+  color: hsl(333, 80%, 67%);
+}
+.comment {
+  color: white;
+  margin-top: 24px;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+@media (max-width: 1273px) {
+  #p1 {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1236px) {
+  .rating-text {
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: LeagueSpartan;
+  src: url(../fonts/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  font-family: LeagueSpartan, sans-serif;
+  background: url(../images/bg-pattern-top-desktop.svg);
+}
+p {
+  margin: 0;
+}
